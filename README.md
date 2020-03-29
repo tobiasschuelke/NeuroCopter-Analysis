@@ -22,9 +22,13 @@ Generate data for the following Jupyter notebooks such as bee view images as wel
 
 <br>
 
-Train an autoencoder with bee view images created in the first notebook. The trained encoder is processes the bee view images of a bee's flight with NeuroCopter. Then, activations in the encoder are tracked during the flight such that each activation generates a time series. These time series are correlated with recorded brain activity of the bee during the flight to check whether some part of the bee's vision correlates with its brain activity.
+Train an autoencoder with bee view images created in the first notebook. The trained encoder is processes the bee view images of a bee's flight with NeuroCopter. Then, activations in the encoder are tracked during the flight such that each activation generates a time series. These time series are correlated with recorded brain activity of the bee during the flight to check whether some part of the bee's vision correlates with its brain activity. The whole video of the gif below can be watched [here](https://drive.google.com/file/d/19ztc3UpusSSS6mArVHqeqsW08k34p04n/view?usp=sharing).
 
 <br>
+
+<p align="center">
+<img src="02_autoencoder/preview.gif">
+</p>
 
 <p align="center">
 <img src="02_autoencoder/results/ae_example_correlations.png" width="600">
